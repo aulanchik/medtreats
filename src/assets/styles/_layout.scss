@@ -1,0 +1,33 @@
+.app {
+  height: auto;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.background {
+  width: 100vw;
+  height: 100rem;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      180deg,
+      rgba(white, 0.65) 0%,
+      rgba(white, 1) 80%,
+      rgba(white, 1) 100%
+    ),
+    url("./src/assets/images/backgrounds/hero.jpg");
+  background-size: cover;
+  background-position: 0% 30%;
+  background-color: white;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.main {
+  & > * {
+    margin: auto;
+    width: 122rem;
+  }
+}

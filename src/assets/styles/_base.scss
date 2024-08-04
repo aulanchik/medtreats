@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $font-main;
+  color: $color-main;
+  line-height: 131%;
+}
+
+body {
+  font-size: $font-size-p;
+}
+
+input,
+textarea {
+  border-radius: 1rem;
+  border: 2px solid $color-main-2;
+  font-size: 1.8rem;
+  font-family: $font-main;
+  color: $color-main-2;
+  padding: 0rem 2.1rem;
+  outline: none;
+  background-color: rgb(250, 250, 250);
+
+  &:focus {
+    box-shadow: $input-shadow-area $box-shadow-input-value;
+  }
+
+  &:invalid {
+    background-color: $color-invalid-sub;
+    border-color: $color-invalid-main;
+    box-shadow: $input-shadow-area $box-shadow-invalid-value;
+  }
+}
+
+textarea {
+  height: 11rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
