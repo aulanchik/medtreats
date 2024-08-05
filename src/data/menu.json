@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "href": "#home",
+    "active": true
+  },
+  {
+    "id": 2,
+    "title": "Training Academy",
+    "href": "#academy"
+  },
+  {
+    "id": 3,
+    "title": "Treatments",
+    "href": "#treatments"
+  },
+  {
+    "id": 4,
+    "title": "About Us",
+    "href": "#about"
+  },
+  {
+    "id": 5,
+    "title": "Models",
+    "href": "#models"
+  },
+  {
+    "id": 6,
+    "title": "Testimonials",
+    "href": "#treatments"
+  },
+  {
+    "id": 7,
+    "title": "FAQ",
+    "href": "#faq"
+  },
+  {
+    "id": 8,
+    "title": "Contact Us",
+    "href": "#contact"
+  }
+]
