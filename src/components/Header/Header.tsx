@@ -5,7 +5,7 @@ import menuData from "@/data/menu.json";
 import { getImagePath } from "@/utils";
 
 const Header: React.FC = () => {
-  const logo = getImagePath("logo.png");
+  const logo = getImagePath("/logo.png");
   const mainMenuItems = menuData.slice(0, 6);
   const secondaryMenuItems = menuData.slice(6);
 
