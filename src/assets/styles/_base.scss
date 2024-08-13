@@ -21,6 +21,10 @@ body {
   font-size: $font-size-p;
 }
 
+section {
+  padding: 2em 0;
+}
+
 input,
 textarea {
   border-radius: 1rem;
