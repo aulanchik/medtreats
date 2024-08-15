@@ -1,0 +1,12 @@
+@import "variables";
+@import "mixins";
+@import "base";
+@import "typography";
+@import "layout";
+@import "animations";
+
+@import "@/components/Header/Header";
+@import "@/components/Footer/Footer";
+@import "@/components/Hero/Hero";
+@import "@/components/Treatments/Treatments";
+@import "@/components/Gallery/Gallery";

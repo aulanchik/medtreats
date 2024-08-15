@@ -1,0 +1,23 @@
+h1,
+h2 {
+  font-size: 5rem;
+  @include heading;
+}
+
+h3 {
+  font-size: 3.9rem;
+  @include heading;
+}
+
+p {
+  font-size: 1.8rem;
+  color: $color-black;
+  line-height: 131%;
+}
+
+a {
+  &:hover,
+  &:focus {
+    color: $color-sub;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "column1": [
+    { "key": 1, "label": "Home", "href": "#home" },
+    { "key": 2, "label": "Training Academy", "href": "#academy" },
+    { "key": 3, "label": "Treatments", "href": "#treatments" },
+    { "key": 4, "label": "About us", "href": "#about" }
+  ],
+  "column2": [
+    { "key": 1, "label": "FAQs", "href": "#faq" },
+    { "key": 2, "label": "Contact us", "href": "#contacts" },
+    { "key": 3, "label": "Models", "href": "#models" },
+    { "key": 4, "label": "Testimonials", "href": "#testimonials" }
+  ],
+  "socials": [
+    { "key": 1, "platform": "Instagram", "href": "https://instagram.com" },
+    { "key": 2, "platform": "Twitter", "href": "https://twitter.com" },
+    { "key": 3, "platform": "Facebook", "href": "https://facebook.com" }
+  ]
+}
