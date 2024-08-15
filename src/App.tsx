@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Hero, Treatments, Footer } from "@/components";
+import { Header, Hero, Treatments, Gallery, Footer } from "@/components";
 
 const App: React.FC = (): JSX.Element => (
   <div className="App background">
@@ -7,6 +7,7 @@ const App: React.FC = (): JSX.Element => (
       <Header />
       <Hero />
       <Treatments />
+      <Gallery />
       <Footer />
     </main>
   </div>
