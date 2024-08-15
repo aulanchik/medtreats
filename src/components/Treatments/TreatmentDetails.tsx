@@ -1,5 +1,5 @@
 import React from "react";
-import { FullTreatmentProps } from "./types"; // Import the FullTreatmentProps type
+import { FullTreatmentProps } from "./types";
 
 const TreatmentDetails: React.FC<Omit<FullTreatmentProps, "image">> = ({
   id,
