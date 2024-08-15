@@ -1,0 +1,28 @@
+[
+  {
+    "title": "don't just take <strong>our word for it</strong>",
+    "description": "Here’s just a few of the people who have been given the complete, perfect look thanks to the Medtreats.",
+    "gallery": [
+      {
+        "id": 1,
+        "image": "/gallery/gallery-1.jpg",
+        "href": "#"
+      },
+      {
+        "id": 2,
+        "image": "/gallery/gallery-2.jpg",
+        "href": "#"
+      },
+      {
+        "id": 3,
+        "image": "/gallery/gallery-3.jpg",
+        "href": "#"
+      },
+      {
+        "id": 4,
+        "image": "/gallery/gallery-4.jpg",
+        "href": "#"
+      }
+    ]
+  }
+]
