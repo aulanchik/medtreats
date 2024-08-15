@@ -1,18 +1,19 @@
 import React from "react";
-import { TreatmentDetailsProps } from "./types";
+import { FullTreatmentProps } from "./types"; // Import the FullTreatmentProps type
 
-const TreatmentDetails: React.FC<TreatmentDetailsProps> = ({
+const TreatmentDetails: React.FC<Omit<FullTreatmentProps, "image">> = ({
+  id,
   title,
   description,
 }) => {
   return (
-    <div className="treatments__details">
+    <div key={id} className="treatments__details">
       <h3 className="treatments__details__title">{title}</h3>
-      {description.map((detail: string, index: number) => (
-        <p key={index} className="treatments__details__description">
-          {detail}
-        </p>
-      ))}
+      <ul className="treatments__details__description">
+        {description.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 };
