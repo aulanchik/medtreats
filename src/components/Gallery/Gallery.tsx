@@ -3,20 +3,18 @@ import GalleryItem from "./GalleryItem";
 import gallery from "@/data/gallery.json";
 
 const Gallery: React.FC = (): JSX.Element => {
-  const items = gallery[0].gallery;
-  const header = gallery[0].title;
-  const text = gallery[0].description;
+  const { title, description, images } = gallery[0];
 
   return (
     <section id="gallery" className="gallery">
       <div className="gallery__heading">
         <h2
           className="gallery__title"
-          dangerouslySetInnerHTML={{ __html: header }}
+          dangerouslySetInnerHTML={{ __html: title }}
         />
-        <p className="gallery__description">{text}</p>
+        <p className="gallery__description">{description}</p>
         <div className="gallery__images">
-          {items.map((item) => (
+          {images.map((item) => (
             <GalleryItem
               id={item.id}
               key={item.id}
