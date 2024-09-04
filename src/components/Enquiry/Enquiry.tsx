@@ -10,6 +10,7 @@ const Enquiry: React.FC = (): JSX.Element => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
+    setValidate(true);
     alert("DEMO");
   };
 
@@ -20,7 +21,7 @@ const Enquiry: React.FC = (): JSX.Element => {
         dangerouslySetInnerHTML={{ __html: title }}
       ></h2>
       <form className="enquiry__form" onSubmit={(e) => handleSubmit(e)}>
-        {form.map((field, index) => (
+        {form.map((field) => (
           <div key={field.name} className="enquiry__form__field">
             <Input
               id={field.name}
