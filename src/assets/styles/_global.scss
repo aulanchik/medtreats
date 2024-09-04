@@ -5,10 +5,13 @@
 @import "layout";
 @import "animations";
 
+@import "@/components/Input/Input";
+@import "@/components/Carousel/Carousel";
+
 @import "@/components/Header/Header";
 @import "@/components/Footer/Footer";
 @import "@/components/Hero/Hero";
-@import "@/components/Carousel/Carousel";
 @import "@/components/Treatments/Treatments";
 @import "@/components/Testimonials/Testimonials";
 @import "@/components/Gallery/Gallery";
+@import "@/components/Enquiry/Enquiry";

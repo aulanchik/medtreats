@@ -1,0 +1,40 @@
+[
+  {
+    "title": "<strong>enquire</strong>about our services",
+    "form": [
+      {
+        "name": "firstName",
+        "label": "First Name",
+        "type": "text"
+      },
+      {
+        "name": "lastName",
+        "label": "Last Name",
+        "type": "text"
+      },
+      {
+        "name": "phoneNumber",
+        "label": "Contact Number",
+        "type": "tel"
+      },
+      {
+        "name": "Email",
+        "label": "Email",
+        "type": "email"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "message",
+        "label": "Message",
+        "type": "textarea"
+      }
+    ],
+    "action": {
+      "label": "Send Enquiry"
+    }
+  }
+]
