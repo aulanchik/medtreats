@@ -1,20 +1,18 @@
 .footer {
   display: flex;
-  margin-top: 2rem;
-  padding: 2rem;
+  padding: 2em 0;
   background-color: $color-main-2;
   justify-content: center;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-
   width: 100%;
 
   &__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 135rem;
+    min-width: 1200px;
     padding: 0 6rem;
   }
 
