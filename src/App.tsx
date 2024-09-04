@@ -5,6 +5,7 @@ import {
   Treatments,
   Testimonials,
   Gallery,
+  Enquiry,
   Footer,
 } from "@/components";
 
@@ -16,6 +17,7 @@ const App: React.FC = (): JSX.Element => (
       <Treatments />
       <Gallery />
       <Testimonials />
+      <Enquiry />
       <Footer />
     </main>
   </div>
