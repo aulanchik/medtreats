@@ -1,0 +1,38 @@
+{
+  "links": [
+    {
+      "label": "Treatments",
+      "href": "#treatments"
+    },
+    {
+      "label": "Training Academy",
+      "href": "#academy"
+    },
+    {
+      "label": "Results",
+      "href": "#results"
+    },
+    {
+      "label": "Testimonials",
+      "href": "#testimonials"
+    },
+    {
+      "label": "Contact us",
+      "href": "#enquiry"
+    }
+  ],
+  "socials": [
+    {
+      "platform": "Instagram",
+      "href": "https://instagram.com"
+    },
+    {
+      "platform": "X",
+      "href": "https://x.com"
+    },
+    {
+      "platform": "Facebook",
+      "href": "https://facebook.com"
+    }
+  ]
+}

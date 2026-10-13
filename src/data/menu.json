@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "title": "Treatments",
+      "href": "#treatments"
+    },
+    {
+      "title": "Training Academy",
+      "href": "#academy"
+    },
+    {
+      "title": "Results",
+      "href": "#results"
+    },
+    {
+      "title": "Testimonials",
+      "href": "#testimonials"
+    }
+  ],
+  "cta": {
+    "title": "Contact Us",
+    "href": "#enquiry"
+  }
+}
