@@ -1,28 +1,26 @@
-[
-  {
-    "title": "don't just take <strong>our word for it</strong>",
-    "description": "Here’s just a few of the people who have been given the complete, perfect look thanks to the Medtreats.",
-    "images": [
-      {
-        "id": 1,
-        "image": "/gallery/gallery-1.jpg",
-        "href": "#"
-      },
-      {
-        "id": 2,
-        "image": "/gallery/gallery-2.jpg",
-        "href": "#"
-      },
-      {
-        "id": 3,
-        "image": "/gallery/gallery-3.jpg",
-        "href": "#"
-      },
-      {
-        "id": 4,
-        "image": "/gallery/gallery-4.jpg",
-        "href": "#"
-      }
-    ]
-  }
-]
+{
+  "title": "Don’t just take *our word for it*",
+  "description": "Here’s just a few of the people who have been given the complete, perfect look thanks to the Medtreats.",
+  "images": [
+    {
+      "id": 1,
+      "image": "/images/gallery/gallery-1.webp",
+      "alt": "Profile of a woman with long, highlighted hair"
+    },
+    {
+      "id": 2,
+      "image": "/images/gallery/gallery-2.webp",
+      "alt": "Portrait of a young woman with dark hair"
+    },
+    {
+      "id": 3,
+      "image": "/images/gallery/gallery-3.webp",
+      "alt": "Foundation, lipstick and an eyeshadow palette on a white surface"
+    },
+    {
+      "id": 4,
+      "image": "/images/gallery/gallery-4.webp",
+      "alt": "Compact blush palette on white fabric"
+    }
+  ]
+}

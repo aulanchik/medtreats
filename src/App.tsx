@@ -1,26 +1,33 @@
-import React from "react";
-import {
-  Header,
-  Hero,
-  Treatments,
-  Testimonials,
-  Gallery,
-  Enquiry,
-  Footer,
-} from "@/components";
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
+import Marquee from '@/components/Marquee'
+import Treatments from '@/components/Treatments'
+import Academy from '@/components/Academy'
+import Gallery from '@/components/Gallery'
+import Testimonials from '@/components/Testimonials'
+import Enquiry from '@/components/Enquiry'
+import Footer from '@/components/Footer'
 
-const App: React.FC = (): JSX.Element => (
-  <div className="App background">
-    <main className="main">
+export default function App() {
+  return (
+    <>
+      <a
+        href='#main'
+        className='sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-60 focus:rounded-full focus:bg-brand-900 focus:px-5 focus:py-3 focus:text-cream'
+      >
+        Skip to content
+      </a>
       <Header />
-      <Hero />
-      <Treatments />
-      <Gallery />
-      <Testimonials />
-      <Enquiry />
+      <main id='main'>
+        <Hero />
+        <Marquee />
+        <Treatments />
+        <Academy />
+        <Gallery />
+        <Testimonials />
+        <Enquiry />
+      </main>
       <Footer />
-    </main>
-  </div>
-);
-
-export default App;
+    </>
+  )
+}
