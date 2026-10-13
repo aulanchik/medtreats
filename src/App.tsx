@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
+import Treatments from "@/components/Treatments";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <main id="main">
         <Hero />
         <Marquee />
+        <Treatments />
       </main>
     </>
   );
