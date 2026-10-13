@@ -5,6 +5,7 @@ import Treatments from "@/components/Treatments";
 import Academy from "@/components/Academy";
 import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
+import Enquiry from "@/components/Enquiry";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Academy />
         <Gallery />
         <Testimonials />
+        <Enquiry />
       </main>
     </>
   );

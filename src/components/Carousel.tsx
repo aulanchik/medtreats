@@ -67,7 +67,7 @@ export default function Carousel<T>({
             type="button"
             onClick={() => go(index - 1)}
             aria-label="Previous testimonial"
-            className="btn btn-outline size-12 !px-0"
+            className="btn btn-outline size-12 px-0!"
           >
             ←
           </button>
@@ -75,7 +75,7 @@ export default function Carousel<T>({
             type="button"
             onClick={() => go(index + 1)}
             aria-label="Next testimonial"
-            className="btn btn-outline size-12 !px-0"
+            className="btn btn-outline size-12 px-0!"
           >
             →
           </button>
