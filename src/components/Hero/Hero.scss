@@ -1,0 +1,35 @@
+.hero {
+  & > * {
+    width: 55%;
+  }
+
+  &__title {
+    padding-top: 9rem;
+  }
+
+  &__description {
+    padding-top: 3rem;
+    line-height: 1.5;
+  }
+
+  &__cta {
+    padding-top: 6rem;
+
+    button {
+      width: 20rem;
+      height: 5rem;
+      gap: $btn-main-gap;
+      &.hero__cta-btn--primary {
+        @include btn-variant-1;
+      }
+
+      &.hero__cta-btn--secondary {
+        @include btn-variant-2;
+      }
+    }
+
+    button + button {
+      margin: 0 $btn-main-gap;
+    }
+  }
+}

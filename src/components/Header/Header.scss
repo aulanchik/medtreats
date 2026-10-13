@@ -1,0 +1,67 @@
+.header {
+  position: relative;
+  height: 14.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__home {
+    left: 0;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+  }
+
+  &__logo {
+    width: 8.2rem;
+    height: 8.2rem;
+  }
+}
+
+.nav {
+  height: 3.7rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 13rem;
+
+  &__list {
+    display: flex;
+    gap: $nav-item-gap;
+    text-decoration: none;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    color: $color-black;
+
+    &.nav__current {
+      color: $color-sub;
+    }
+  }
+
+  &__ctn {
+    display: flex;
+    place-items: center;
+    height: 4rem;
+
+    & > :last-child {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 2.2rem;
+      text-transform: capitalize;
+      color: $color-main;
+      width: 10rem;
+      height: inherit;
+      font-weight: 500;
+      border: 0.2rem solid $color-main;
+
+      &:hover {
+        background-color: rgba($color-main, 0.3);
+      }
+    }
+  }
+}

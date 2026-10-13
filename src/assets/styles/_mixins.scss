@@ -1,0 +1,53 @@
+@mixin heading {
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 122%;
+
+  & > str {
+    font-weight: 300;
+  }
+}
+
+@mixin btn-variant-1 {
+  height: 5.5rem;
+  border-top-right-radius: 30rem;
+  border-bottom-right-radius: 30rem;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+
+  background-color: $color-sub;
+  color: $color-white;
+  border: none;
+
+  &:hover {
+    box-shadow: rgb(119 190 194) 0px 7px 18px;
+  }
+}
+
+@mixin btn-variant-2 {
+  height: 5.5rem;
+  border-top-right-radius: 30rem;
+  border-bottom-right-radius: 30rem;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+
+  background-color: transparent;
+  color: $color-main;
+  border: 0.2rem solid $color-main;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $btn-hover-bg;
+  }
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

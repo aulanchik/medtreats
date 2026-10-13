@@ -1,0 +1,48 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  &__item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    z-index: 1000;
+    border: none;
+
+    &--left {
+      left: 10px;
+    }
+
+    &--right {
+      right: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__button {
+      display: none;
+    }
+  }
+}

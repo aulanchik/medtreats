@@ -1,24 +1,24 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Marquee from "@/components/Marquee";
-import Treatments from "@/components/Treatments";
-import Academy from "@/components/Academy";
-import Gallery from "@/components/Gallery";
-import Testimonials from "@/components/Testimonials";
-import Enquiry from "@/components/Enquiry";
-import Footer from "@/components/Footer";
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
+import Marquee from '@/components/Marquee'
+import Treatments from '@/components/Treatments'
+import Academy from '@/components/Academy'
+import Gallery from '@/components/Gallery'
+import Testimonials from '@/components/Testimonials'
+import Enquiry from '@/components/Enquiry'
+import Footer from '@/components/Footer'
 
 export default function App() {
   return (
     <>
       <a
-        href="#main"
-        className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-60 focus:rounded-full focus:bg-brand-900 focus:px-5 focus:py-3 focus:text-cream"
+        href='#main'
+        className='sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-60 focus:rounded-full focus:bg-brand-900 focus:px-5 focus:py-3 focus:text-cream'
       >
         Skip to content
       </a>
       <Header />
-      <main id="main">
+      <main id='main'>
         <Hero />
         <Marquee />
         <Treatments />
@@ -29,5 +29,5 @@ export default function App() {
       </main>
       <Footer />
     </>
-  );
+  )
 }

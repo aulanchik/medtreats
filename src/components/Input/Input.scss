@@ -1,0 +1,26 @@
+.input {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 4px;
+    font-weight: bold;
+  }
+
+  &__box {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid $color-main-2;
+    border-radius: $border-radius;
+    transition: border-color 0.2s;
+
+    &:focus {
+      border-color: #007bff;
+    }
+  }
+
+  &__stay {
+    border-color: #007bff;
+  }
+}
