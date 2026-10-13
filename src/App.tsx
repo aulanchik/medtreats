@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
 import Treatments from "@/components/Treatments";
 import Academy from "@/components/Academy";
+import Gallery from "@/components/Gallery";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Marquee />
         <Treatments />
         <Academy />
+        <Gallery />
       </main>
     </>
   );
