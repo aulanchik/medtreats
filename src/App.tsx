@@ -4,6 +4,7 @@ import Marquee from "@/components/Marquee";
 import Treatments from "@/components/Treatments";
 import Academy from "@/components/Academy";
 import Gallery from "@/components/Gallery";
+import Testimonials from "@/components/Testimonials";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Treatments />
         <Academy />
         <Gallery />
+        <Testimonials />
       </main>
     </>
   );
